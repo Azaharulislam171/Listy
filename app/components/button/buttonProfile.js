@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { auth, db } from '../../../firebase'; // Adjust the path to your Firebase setup
 import { doc, getDoc } from 'firebase/firestore';
+import Image from 'next/image';
 
 export default function MyProfile() {
   const router = useRouter();
@@ -53,7 +54,11 @@ export default function MyProfile() {
     <div className="relative">
       <div className="flex mr-4 items-center space-x-1 cursor-pointer" onClick={handleToggleDropdown}>
         <span className='mr-4 capitalize'>{username}</span>
-        <img src={profileImage} alt="Profile Icon" className="mr-4  w-8 h-8 rounded-full" />
+        <Image
+        src={profileImage} 
+        alt="Profile Icon"
+        className="mr-4  w-8 h-8 rounded-full"
+        />
       </div>
       {dropdownOpen && (
         <div className="absolute top-full right-0 mt-2 w-48 bg-gray-800 border-gray-300 rounded shadow-lg z-10">
