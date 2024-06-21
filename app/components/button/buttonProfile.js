@@ -69,7 +69,6 @@ export default function MyProfile() {
           <a href="#" className="block px-4 py-2 text-gray-400 hover:text-blue-400">Theme</a>
         </div>
       )}
-      {/* Backdrop */}
       {dropdownOpen && (
         <div
           className="fixed top-0 left-0 z-0 w-screen h-screen bg-white opacity-90 backdrop-blur-xl"
