@@ -1,24 +1,23 @@
-
 import { initializeApp } from "firebase/app";
-import {getFirestore,Timestamp } from 'firebase/firestore';
-import { getAuth, GoogleAuthProvider,onAuthStateChanged} from "firebase/auth";
+import { getFirestore, Timestamp } from "firebase/firestore";
+import { getAuth, GoogleAuthProvider, onAuthStateChanged } from "firebase/auth";
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-apiKey: "AIzaSyCh0ExqNpc632VPhG0OYPbxwn5dCcustUg",
-authDomain: "aitodolist-3a06b.firebaseapp.com",
-projectId: "aitodolist-3a06b",
-storageBucket: "aitodolist-3a06b.appspot.com",
-messagingSenderId: "990234030200",
-appId: "1:990234030200:web:3cc5b9be67bf82bcaabd8d",
-measurementId: "G-063LJR8D5S"
+  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
+  authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
+  projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
+  storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
+  measurementId: process.env.NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID,
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 const auth = getAuth(app);
-const storage = getStorage(app); 
+const storage = getStorage(app);
 const provider = new GoogleAuthProvider();
 
 export { db, auth, Timestamp, storage, provider };
