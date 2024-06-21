@@ -37,7 +37,6 @@ export default function Home() {
             alt="Description of the image"
             width={500}
             height={300}
-            className="rounded-md"
           />
         </div>
       </div>
@@ -56,7 +55,7 @@ export default function Home() {
               alt="Description of the image"
               width={100}
               height={200}
-              className="rounded-md"
+              
             />
             </div>
             <button

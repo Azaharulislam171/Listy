@@ -1,4 +1,4 @@
-'use client';
+'use client'
 import { useEffect, useState } from 'react';
 import ButtonAddTask from '../components/formaddtask';
 import MyProfile from '../components/button/buttonProfile';
@@ -24,12 +24,12 @@ export default function PageAddTask() {
 
     // Cleanup subscription on unmount
     return () => unsubscribe();
-  }, []);
+  }, [pageTitle]); // Include pageTitle in the dependency array
 
   return (
     <div>
       <div className="text-lg  flex justify-end hover:text-blue-400 gap-2 ">
-              <MyProfile />
+        <MyProfile />
       </div>
       <div className="min-h-screen flex flex-col items-center justify-center">
         <div className="relative w-full max-w-4xl shadow-md rounded-lg p-2 md:p-8">

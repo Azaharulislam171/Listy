@@ -47,10 +47,9 @@ export default function TestDashboard() {
         setUser(null);
       }
     });
-
+  
     return () => unsubscribe();
-  }, []);
- 
+  }, [pageTitle]); 
 
   return (
     <div className="flex h-screen overflow-hidden">
@@ -101,7 +100,7 @@ export default function TestDashboard() {
           </div>
           {/* Task's Today */}
           <div className="col-span-12 md:col-span-6 p-2 rounded-lg shadow  bg-white max-h-48 overflow-y-auto">
-            <h2 className=" text-md font-semibold text-gray-400 mb-2">Task's Today</h2>
+            <h2 className=" text-md font-semibold text-gray-400 mb-2">Tasks Today</h2>
             
               <TasksToday />
             

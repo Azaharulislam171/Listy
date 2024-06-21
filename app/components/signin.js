@@ -78,7 +78,7 @@ const SignIn = ({ setShowSignup }) => {
               </button>
             </p>
             <p className="text-sm text-gray-600 mt-2">
-              Don't have an account?{' '}
+              Don&apos;t have an account?{' '}
               <button
                 onClick={() => setShowSignup(true)}
                 className="text-blue-500 hover:underline"

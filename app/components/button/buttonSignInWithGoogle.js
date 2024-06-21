@@ -21,7 +21,11 @@ const ButtonSigninWithGoogle = () => {
   return (
     <button onClick={handleSignIn} className=" flex gap-5">
       <span>
-      <Image src="/g.png" alt=" Sign in with Google" width={20} height={20} />
+      <Image 
+      src="/g.png" 
+      alt=" Sign in with Google" 
+      width={20} 
+      height={20} />
       </span>
       <span>|Sign in with Google</span>
     </button>

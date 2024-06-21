@@ -110,7 +110,7 @@ export default function TestDashboard() {
           </div>
           {/* Task's Today */}
           <div className="col-span-12 md:col-span-6 p-2 rounded-lg shadow-xl  bg-white max-h-64 overflow-y-auto">
-            <h2 className=" text-md font-semibold text-gray-400 mb-2">Task's Today</h2>
+            <h2 className=" text-md font-semibold text-gray-400 mb-2">Tasks Today</h2>
             <div className="overflow-y-auto min-h-48  rounded shadow-xl ">
               <TasksToday />
             </div>
