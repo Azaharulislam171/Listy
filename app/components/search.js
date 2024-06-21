@@ -108,7 +108,7 @@ const Search = ({ label }) => {
           </div>
         ))
       ) : (
-        <p className="text-center text-gray-500">No tasks found with label "{label}". Click on a label to continue</p>
+        <p className="text-center text-gray-500">No tasks found with label &quot;{label}&quot;. Click on a label to continue</p>
       )}
     </div>
   );
