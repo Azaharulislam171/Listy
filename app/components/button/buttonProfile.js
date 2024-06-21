@@ -33,7 +33,7 @@ export default function MyProfile() {
       }
     });
 
-    return () => unsubscribe(); // Cleanup function to unsubscribe from the listener
+    return () => unsubscribe(); 
   }, [router]);
 
   const handleSignOut = async () => {
