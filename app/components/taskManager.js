@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import EditLabel from './editLabel';
-import Search from './Search';
+import Search from 'search';
 import { auth } from '../../firebase';
 import { onAuthStateChanged } from 'firebase/auth';
 
