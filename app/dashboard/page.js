@@ -52,7 +52,7 @@ export default function TestDashboard() {
   }, [pageTitle]); 
 
   return (
-    <div className="flex h-screen overflow-hidden">
+    <div className="flex min-h-screen overflow-hidden">
       <Head>
         <title>Dashboard</title>
       </Head>
