@@ -83,7 +83,7 @@ export default function TestDashboard() {
             selected={selectedDate}
             onChange={date => setSelectedDate(date)}
             dateFormat="MM/dd/yyyy"
-            className="border rounded p-2 sm:w-24 md:w-36 lg:w-48"
+            className="border rounded  w-1/4"
           />
             
           </div>
