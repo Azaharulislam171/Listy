@@ -32,37 +32,37 @@ const TermsOfService = () => {
           <div className="text-sm leading-relaxed">
             <p><span className="font-bold">1. Acceptance of Terms</span></p>
             <p className='text-gray-600'>
-              By accessing or using Taskly in any manner, you agree to these Terms of Service (&quot;Terms&quot;). If you do not agree to all the terms and conditions of this agreement, then you may not access the website or use any services.
+              By accessing or using Listy in any manner, you agree to these Terms of Service (&quot;Terms&quot;). If you do not agree to all the terms and conditions of this agreement, then you may not access the website or use any services.
             </p>
           </div>
 
           <div className="text-sm leading-relaxed mt-4">
-            <p><span className="font-bold">2. Use of Taskly</span></p>
-            <p className='text-gray-600'><span className="font-bold">Registration:</span> To use Taskly, you may need to register and provide certain information. You agree that all information provided during registration is accurate and complete.</p>
-            <p className='text-gray-600'><span className="font-bold">Google Authentication:</span> Taskly uses Google authentication services to authenticate users. By using Taskly, you agree to Google&apos;s Terms of Service and Privacy Policy in addition to these Terms.</p>
+            <p><span className="font-bold">2. Use of Listy</span></p>
+            <p className='text-gray-600'><span className="font-bold">Registration:</span> To use Listy, you may need to register and provide certain information. You agree that all information provided during registration is accurate and complete.</p>
+            <p className='text-gray-600'><span className="font-bold">Google Authentication:</span> Listy uses Google authentication services to authenticate users. By using Listy, you agree to Google&apos;s Terms of Service and Privacy Policy in addition to these Terms.</p>
             <p className='text-gray-600'><span className="font-bold">User Responsibilities:</span> You are responsible for maintaining the confidentiality of your account and password, and for restricting access to your computer or device. You agree to accept responsibility for all activities that occur under your account or password.</p>
           </div>
 
           <div className="text-sm leading-relaxed mt-4">
             <p><span className="font-bold">3. User Content</span></p>
-            <p className='text-gray-600'><span className="font-bold">Ownership:</span> You retain ownership of any content you create, upload, or submit to Taskly.</p>
-            <p className='text-gray-600'><span className="font-bold">License:</span> By submitting content to Taskly, you grant AiITSolutions a worldwide, non-exclusive, royalty-free license to use, reproduce, distribute, and display such content solely for the purposes of operating and improving Taskly.</p>
+            <p className='text-gray-600'><span className="font-bold">Ownership:</span> You retain ownership of any content you create, upload, or submit to Listy.</p>
+            <p className='text-gray-600'><span className="font-bold">License:</span> By submitting content to Listy, you grant AiITSolutions a worldwide, non-exclusive, royalty-free license to use, reproduce, distribute, and display such content solely for the purposes of operating and improving Listy.</p>
             <p className='text-gray-600'><span className="font-bold">Prohibited Content:</span> You agree not to submit any content that is illegal, infringes on any intellectual property rights, violates any applicable laws, or is otherwise offensive or harmful.</p>
           </div>
 
           <div className="text-sm leading-relaxed mt-4">
             <p><span className="font-bold">4. Privacy Policy</span></p>
-            <p className='text-gray-600'>Your use of Taskly is also governed by our Privacy Policy, which outlines how we collect, use, and disclose your information. By using Taskly, you consent to our collection and use of your personal information as outlined in the Privacy Policy.</p>
+            <p className='text-gray-600'>Your use of Listy is also governed by our Privacy Policy, which outlines how we collect, use, and disclose your information. By using Listy, you consent to our collection and use of your personal information as outlined in the Privacy Policy.</p>
           </div>
 
           <div className="text-sm leading-relaxed mt-4">
             <p><span className="font-bold">5. Modifications</span></p>
-            <p className='text-gray-600'>AiITSolutions reserves the right to modify or revise these Terms of Service at any time. The most current version will always be available on this page. By continuing to use Taskly after changes are posted, you agree to be bound by the revised Terms.</p>
+            <p className='text-gray-600'>AiITSolutions reserves the right to modify or revise these Terms of Service at any time. The most current version will always be available on this page. By continuing to use Listy after changes are posted, you agree to be bound by the revised Terms.</p>
           </div>
 
           <div className="text-sm leading-relaxed mt-4">
             <p><span className="font-bold">6. Termination</span></p>
-            <p className='text-gray-600'>AiITSolutions reserves the right to suspend or terminate your access to Taskly at any time, without notice, for any reason, including breach of these Terms.</p>
+            <p className='text-gray-600'>AiITSolutions reserves the right to suspend or terminate your access to Listy at any time, without notice, for any reason, including breach of these Terms.</p>
           </div>
 
           <div className="text-sm leading-relaxed mt-4">

@@ -31,14 +31,14 @@ const PrivacyPolicy = () => {
           <h2 className="text-2xl font-bold mb-4 text-center">Privacy Policy</h2>
           <div className="text-sm leading-relaxed">
             <p className='text-gray-600'>
-              This Privacy Policy describes how AiITSolutions collects, uses, and discloses your personal information when you use Taskly.
+              This Privacy Policy describes how AiITSolutions collects, uses, and discloses your personal information when you use Listy.
             </p>
           </div>
 
           <div className="text-sm leading-relaxed mt-4">
             <p><span className="font-bold">1. Information We Collect</span></p>
             <p className='text-gray-600'>
-              We collect information that you provide to us directly, such as when you create an account, update your profile, or use certain features of Taskly.
+              We collect information that you provide to us directly, such as when you create an account, update your profile, or use certain features of Listy.
             </p>
             <p className='text-gray-600'>
               We also collect information automatically as you navigate through the site, including usage details, IP addresses, and cookies.
@@ -48,10 +48,10 @@ const PrivacyPolicy = () => {
           <div className="text-sm leading-relaxed mt-4">
             <p><span className="font-bold">2. How We Use Your Information</span></p>
             <p className='text-gray-600'>
-              We use your information to provide, maintain, and improve Taskly, to communicate with you, and to protect Taskly and our users.
+              We use your information to provide, maintain, and improve Listy, to communicate with you, and to protect Listy and our users.
             </p>
             <p className='text-gray-600'>
-              We may also use your information for analytics and research to better understand how Taskly is used.
+              We may also use your information for analytics and research to better understand how Listy is used.
             </p>
           </div>
 
