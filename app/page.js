@@ -79,7 +79,7 @@ export default function Home() {
                 Terms of Service
               </a>{' '}
               and{' '}
-              <a href="/terms-of-service" className="underline">
+              <a href="/privacy-policy" className="underline">
                 Privacy Policy
               </a>
             </p>
