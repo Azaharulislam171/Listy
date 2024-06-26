@@ -113,7 +113,7 @@ export default function TestDashboard() {
             
           </div>
 
-          <div className="col-span-12 bg-white p-4 rounded-lg shadow overflow-hidden">
+          <div className="col-span-12  p-4 rounded-lg shadow overflow-hidden">
             <h2 className="text-md text-gray-400 font-semibold mb-2">{selectedLabel}</h2>
             <div className="overflow-x-auto">
               <div className="flex">

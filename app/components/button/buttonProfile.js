@@ -1,9 +1,8 @@
-// components/button/buttonProfile.js
 import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { auth, db } from '../../../firebase'; // Adjust the path to your Firebase setup
 import { doc, getDoc } from 'firebase/firestore';
-
+import Image from 'next/image';
 
 export default function MyProfile() {
   const router = useRouter();
@@ -33,7 +32,7 @@ export default function MyProfile() {
       }
     });
 
-    return () => unsubscribe(); 
+    return () => unsubscribe();
   }, [router]);
 
   const handleSignOut = async () => {
@@ -52,9 +51,19 @@ export default function MyProfile() {
 
   return (
     <div className="relative">
-      <div className="flex mr-4 items-center space-x-1 cursor-pointer" onClick={handleToggleDropdown}>
+      <div className="flex items-center space-x-1 cursor-pointer" onClick={handleToggleDropdown}>
         <span className='mr-4 capitalize'>{username}</span>
-       
+        {profileImage && (
+          <div className="relative w-8 h-8">
+            <Image
+              src={profileImage}
+              alt="Profile"
+              layout="fill"
+              objectFit="cover"
+              className="rounded-full"
+            />
+          </div>
+        )}
       </div>
       {dropdownOpen && (
         <div className="absolute top-full right-0 mt-2 w-48 bg-gray-800 border-gray-300 rounded shadow-lg z-10">

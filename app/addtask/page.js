@@ -33,7 +33,7 @@ export default function PageAddTask() {
       </div>
       <div className="min-h-screen flex flex-col items-center justify-center">
         <div className="relative w-full max-w-4xl shadow-md rounded-lg p-2 md:p-8">
-          <Link href='/test'>
+          <Link href='/dashboard'>
             <XCircleIcon className='text-gray-500 w-12 h-12 absolute top-2 right-2' />
           </Link>
           {user ? <ButtonAddTask user={user} /> : <p>Loading...</p>}
