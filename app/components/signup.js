@@ -87,7 +87,7 @@ const Signup = ({ setShowSignin }) => {
               onChange={(e) => setFirstName(e.target.value)}
               placeholder="First Name"
               required
-              className="w-full text-gray-700 shadow-lg px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="w-full text-gray-400 shadow-lg px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
           </div>
           <div className="mb-4">
