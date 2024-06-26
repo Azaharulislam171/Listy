@@ -59,18 +59,18 @@ export default function Home() {
             />
             </div>
             <button
-              className="border-black border-2  w-64 bg-gray-800 hover:text-white hover:bg-black   text-small py-2 px-6 mb-4 rounded-full "
+              className="border-black border-2  w-64 bg-gray-800 text-white hover:bg-black   text-small py-2 px-6 mb-4 rounded-full "
               onClick={() => setShowSignup(true)}
             >
               Sign up with Email
             </button>
             <button
-              className="border-black border-2  w-64 bg-gray-800 hover:text-white hover:bg-black text-small py-2 px-6 mb-4 rounded-full"
+              className="border-black border-2  w-64 bg-gray-800 text-white hover:bg-black text-small py-2 px-6 mb-4 rounded-full"
               onClick={() => setShowSignin(true)}
             >
               Sign in with Email
             </button>
-            <div className="border-black border-2 bg-gray-800 w-64 hover:text-white hover:bg-black text-small py-2 px-6 rounded-full">
+            <div className="border-black border-2 bg-gray-800 w-64 text-white hover:bg-black text-small py-2 px-6 rounded-full">
               <ButtonSigninWithGoogle />
             </div>
             <p className=" absolute bottom-10 text-gray-600 text-sm text-center">
