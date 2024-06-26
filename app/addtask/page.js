@@ -28,7 +28,7 @@ export default function PageAddTask() {
 
   return (
     <div>
-      <div className="text-lg  flex justify-end hover:text-blue-400 gap-2 ">
+      <div className="text-lg  flex justify-end mr-8 mt-4 hover:text-blue-400 gap-2 ">
         <MyProfile />
       </div>
       <div className="min-h-screen flex flex-col items-center justify-center">
